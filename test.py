@@ -11,7 +11,13 @@ def sample(any_list):
 
 print sample(ls1)
 
-#---------------------
+# ---------------------
+
+letters = ['a', 'b', 'c', 'd']
+print " ".join(letters)
+print "---".join(letters)
+
+# -----------
 
 
 
