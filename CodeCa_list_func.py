@@ -40,7 +40,7 @@ def join_strings(words):
 print join_strings(n)
 
 
-# list of lists in a function
+# takes multiple lists and create a common list from them
 
 n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
 # Add your function here
@@ -55,3 +55,4 @@ def flatten(lists):
 
 
 print flatten(n)
+

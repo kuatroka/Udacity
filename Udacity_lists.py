@@ -120,7 +120,7 @@ b = 3
 print find_element1(a, b)
 """
 
-# with 'in' and index()
+# find element in with 'in' and index()
 def find_element(a, b):
     if b in a:
         return a.index(b)
@@ -128,7 +128,7 @@ def find_element(a, b):
 
 
 a = ['rt', 'yu', 'jk']
-b = 'y'
+b = 'yu'
 
 print find_element(a, b)
 
@@ -144,5 +144,26 @@ a = ['rt', 'yu', 'jk']
 b = 'y'
 
 print find_element1(a, b)
+
+# calculates the product of elements in a list
+def product_list(list_of_numbers):
+    prod = 1
+    for i in list_of_numbers:
+        prod *= i
+
+    return prod
+
+print product_list([1,2,3,4])
+
+# the greatest number in a list
+def greatest(list_of_numbers):
+    while list_of_numbers:
+        return max(list_of_numbers)
+    return 0
+
+
+print greatest([4, 23, 1])
+
+
 
 
